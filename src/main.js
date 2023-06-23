@@ -1,6 +1,8 @@
 import './styles.css';
 
 import { fetchData } from './utils/dataFetcher.js';
+// import { convert, parse } from './utils/jsonConverter.js';
+
 
 (async function () {
     const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
@@ -14,7 +16,7 @@ import { fetchData } from './utils/dataFetcher.js';
     //     cities.push(city);
     // }
 
-    // cities.push(data[0], data[1], data[2], data[3], data[4], ..., data[length]);
+    // cities.push(data[0], data[1], data[2], data[3], data[4], ..., data[data.length-1]);
     cities.push(...data);
 
     // console.log(cities);

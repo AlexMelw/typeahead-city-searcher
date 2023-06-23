@@ -2,6 +2,7 @@
   "name": "typeahead-searcher",
   "version": "0.0.1",
   "description": "Typeahead searcher with vanilla JS and module CSS",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel serve index.html",
